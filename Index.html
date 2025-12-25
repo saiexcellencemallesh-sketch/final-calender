@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhakthi Heritage Art Calendar 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --antique-gold: #d4af37;
+            --deep-charcoal: #1a1a1a;
+            --sepia-bg: #fdf5e6;
+            --accent-brown: #4e342e;
+        }
+
+        * { box-sizing: border-box; scroll-behavior: smooth; }
+        body, html { margin: 0; padding: 0; width: 100%; background: var(--sepia-bg); color: var(--accent-brown); font-family: 'Lora', serif; }
+
+        /* --- INNOVATIVE CIRCULAR BRANDING (FIXED ON ALL PAGES) --- */
+        .project-seal {
+            position: fixed; top: 25px; left: 25px; z-index: 1000;
+            width: 110px; height: 110px; border: 3px double var(--antique-gold);
+            border-radius: 50%; background: white; display: flex; align-items: center;
+            justify-content: center; text-align: center; font-family: 'Cinzel';
+            font-size: 9px; font-weight: bold; box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            padding: 10px; line-height: 1.2; color: var(--accent-brown);
+        }
+
+        /* --- THEME WRAPPERS --- */
+        .page-container { min-height: 100vh; display: none; position: relative; background-size: cover; background-position: center; background-attachment: fixed; }
+        .page-container.active { display: block; animation: pageFade 1.2s ease-in-out; }
+        .bg-overlay { position: absolute; inset: 0; background: rgba(253, 245, 230, 0.92); z-index: 1; }
+
+        @keyframes pageFade { from { opacity: 0; transform: scale(1.01); } to { opacity: 1; transform: scale(1); } }
+
+        /* --- ARTICLE FLOW ELEMENTS --- */
+        header { text-align: center; padding: 120px 20px 40px; position: relative; z-index: 2; }
+        h1 { font-family: 'Cinzel', serif; font-size: clamp(2.5rem, 8vw, 4rem); margin: 0; }
+        
+        .article-content { max-width: 900px; margin: 0 auto; padding: 0 20px 80px; position: relative; z-index: 2; }
+        .article-section { margin-bottom: 50px; line-height: 1.8; font-size: 1.15rem; }
+        .article-section h3 { font-family: 'Cinzel'; color: var(--antique-gold); border-bottom: 2px solid var(--antique-gold); display: inline-block; padding-bottom: 5px; margin-bottom: 20px; }
+        .highlight-quote { font-style: italic; border-left: 5px solid var(--antique-gold); padding: 15px 20px; margin: 40px 0; font-weight: bold; color: var(--accent-brown); background: rgba(255,255,255,0.6); }
+
+        .hero-img { width: 100%; max-width: 500px; border: 8px solid white; outline: 1px solid var(--antique-gold); margin: 30px auto; display: block; box-shadow: 0 15px 40px rgba(0,0,0,0.1); }
+
+        /* --- VIDEO BOXING --- */
+        .video-box { margin: 30px 0; border: 1px solid var(--antique-gold); padding: 10px; background: white; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 20px; }
+        .iframe-wrap { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+        .iframe-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+
+        /* --- NAVIGATION & FOOTER --- */
+        .navigation-block { background: var(--accent-brown); color: var(--sepia-bg); padding: 80px 20px; text-align: center; border-top: 8px solid var(--antique-gold); position: relative; z-index: 2; }
+        .nav-btn { background: var(--antique-gold); color: var(--deep-charcoal); padding: 20px 50px; font-family: 'Cinzel', serif; font-weight: bold; text-decoration: none; border-radius: 50px; border: none; cursor: pointer; display: inline-block; transition: 0.3s; }
+        .nav-btn:hover { background: white; color: var(--accent-brown); transform: translateY(-3px); }
+
+        .page-footer { padding: 40px; text-align: center; font-size: 0.85rem; background: var(--deep-charcoal); color: #888; border-top: 2px solid var(--antique-gold); position: relative; z-index: 2; width: 100%; }
+        .page-footer b { color: var(--antique-gold); }
+
+        /* --- BACKGROUNDS --- */
+        #feb { background-image: url('https://www.shutterstock.com/image-photo/vintage-paper-background-ramayana-concept-260nw-2158864757.jpg'); }
+        #mar { background-image: url('https://shaktimandir.org/wp-content/uploads/2021/04/tulsi-plant.jpg'); }
+        #apr { background-image: url('https://images.unsplash.com/photo-1514466791435-90ae896d43f0?auto=format&fit=crop&w=800'); }
+        #may { background-image: url('https://images.unsplash.com/photo-1502251343712-4299b7829707?auto=format&fit=crop&w=800'); }
+        #dec { background-image: url('https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800'); }
+    </style>
+</head>
+<body>
+
+    <div class="project-seal">BHAKTHI<br>HERITAGE<br>ART CALENDAR<br>2026</div>
+
+    <div id="experience-wrapper">
+        
+        <div id="intro" class="page-container">
+            <div class="bg-overlay"></div>
+            <header>
+                <div style="font-family: 'Cinzel'; letter-spacing: 5px; color: var(--antique-gold); font-weight: bold;">ART CALENDAR 2026</div>
+                <h1 style="font-size: clamp(3.5rem, 12vw, 6rem); line-height: 1; margin: 20px 0;">BHAKTHI</h1>
+                <p style="font-style: italic; font-size: 1.4rem; color: var(--accent-brown); font-weight: bold;">EXPERIENCING PUREST FORM OF LOVE!</p>
+            </header>
+            <div class="article-content" style="text-align: center;">
+                <p class="article-section">Welcome to a year-long sacred journey. This companion unlocks the divine stories and music behind each month's artwork.</p>
+                <button onclick="navigate('jan')" class="nav-btn">BEGIN THE JOURNEY</button>
+            </div>
+            <div class="page-footer">Illustrations & Design: <b>Sweta Sairam</b> | Content: <b>Sai Mallesh</b> | <b>@swetcha_art</b></div>
+        </div>
+
+        <div id="jan" class="page-container">
+            <div class="bg-overlay"></div>
+            <header><h1>January</h1><div style="font-style: italic; color: var(--antique-gold);">The Essence of Devotion</div></header>
+            <div class="article-content">
+                <img src="https://static.sadhguru.org/d/46272/1626099405-bhakti-path.jpg" class="hero-img">
+                <div class="article-section">
+                    <p>Bhakti is the nectar of devotion—a state where the soul dissolves into the infinite love of the Divine. It is the sweetest path to self-realization.</p>
+                </div>
+                <div class="article-section">
+                    <h3>Insights into the Path</h3>
+                    <p>Experience the inner stripping of the ego through <b>Jhoot Chor</b> and learn the philosophy from <b>Madhusudan Sai</b>.</p>
+                    <div class="video-grid">
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/n4p8E_5xHLo"></iframe></div>
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/fD_t7-SPlA8"></iframe></div>
+                    </div>
+                    <div class="video-grid">
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/zO99U-h8q_k"></iframe></div>
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/W9l6vN4O3rM"></iframe></div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-block"><button onclick="triggerScanner('February')" class="nav-btn">📷 SCAN FEBRUARY</button></div>
+            <div class="page-footer">Illustrations: <b>Sweta Sairam</b> | Content: <b>Sai Mallesh</b> | <b>@swetcha_art</b></div>
+        </div>
+
+        <div id="feb" class="page-container">
+            <div class="bg-overlay"></div>
+            <header><h1>February</h1><div style="font-style: italic; color: var(--antique-gold);">Sant Tulsidas</div></header>
+            <div class="article-content">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU6os3H0y_x_WXAWiI4-cpIemsFXqYceZ5Rg&s" class="hero-img">
+                <div class="article-section">
+                    <h3>The Spark of Realization</h3>
+                    <p>Tulsidas was once consumed by intense worldly love for his wife, Ratnavali. Legend says he once crossed a flooded river using a corpse as a raft to reach her.</p>
+                    
+                    <div class="highlight-quote">"If you loved the Divine with the same intensity you feel for this body, you would be realized in an instant."</div>
+                    <p>These words from Ratnavali acted as a spiritual shock, redirecting his obsession with the flesh into an eternal hunger for Sri Rama.</p>
+                </div>
+                <div class="article-section">
+                    <h3>Cinematic & Animated Story</h3>
+                    <div class="video-grid">
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/4-BzjHYhc-M"></iframe></div>
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/OxzVwF6Anzw"></iframe></div>
+                    </div>
+                </div>
+                <div class="article-section">
+                    <h3>Immortal Compositions</h3>
+                    <div class="video-box"><div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/z56DlPcG8k8"></iframe></div></div>
+                    <div class="video-grid">
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/ZFb-W1PAcnI"></iframe></div>
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/R3NxAR60jlo"></iframe></div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-block"><button onclick="triggerScanner('March')" class="nav-btn">📷 SCAN MARCH</button></div>
+            <div class="page-footer">Illustrations: <b>Sweta Sairam</b> | Content: <b>Sai Mallesh</b> | <b>@swetcha_art</b></div>
+        </div>
+
+        <div id="mar" class="page-container">
+            <div class="bg-overlay"></div>
+            <header><h1>March</h1><div style="font-style: italic; color: var(--antique-gold);">Goda Devi (Andal)</div></header>
+            <div class="article-content">
+                <img src="https://tirumalatirupatiyatra.in/wp-content/uploads/2024/03/Andal-or-Goda-Devi-Dressed-up-as-Child-1.jpg" class="hero-img">
+                <div class="article-section">
+                    <p>Andal (8th Century) is the only female among the twelve Alvar saints. Found as a baby under a Tulsi plant in Srivilliputhur, she grew up breathing devotion.</p>
+                    
+                    <p>She is celebrated as <b>'Chudikudutha Sudarkodi'</b>—the bright creeper-like woman who gave the Lord the garland she had first worn herself.</p>
+                </div>
+                <div class="article-section">
+                    <h3>Tiruppavai & Nachiar Tirumozhi</h3>
+                    <p>The <b>Tiruppavai</b> is a collection of 30 stanzas sung during Margazhi. Her second work, <b>Nachiar Tirumozhi</b>, expresses her intense longing for Lord Ranganatha.</p>
+                </div>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/4ESHzf8FSzU"></iframe></div>
+                        <p><b>English Biopic:</b> A cinematic look at her divine life.</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/wvvL746c_ww"></iframe></div>
+                        <p><b>Tamil Harikatha:</b> Traditional storytelling of her legend.</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/WmL1852GDt8"></iframe></div>
+                        <p><b>Telugu Discourse:</b> Spiritual depth of Tiruppavai.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-block"><button onclick="triggerScanner('April')" class="nav-btn">📷 SCAN APRIL</button></div>
+            <div class="page-footer">Illustrations: <b>Sweta Sairam</b> | Content: <b>Sai Mallesh</b> | <b>@swetcha_art</b></div>
+        </div>
+
+        <div id="apr" class="page-container">
+            <div class="bg-overlay"></div>
+            <header><h1>April</h1><div style="font-style: italic; color: var(--antique-gold);">Saint Tyagaraja</div></header>
+            <div class="article-content">
+                <img src="https://images.unsplash.com/photo-1514466791435-90ae896d43f0?auto=format&fit=crop&w=800" class="hero-img">
+                <div class="article-section">
+                    <p>Saint Tyagaraja shared a relationship with Lord Rama that was raw and human. He often blamed God (Ninda) for his trials before reaching supreme bliss (Ananda).</p>
+                    
+                </div>
+                <div class="article-section">
+                    <h3>The Transformation Story</h3>
+                    <p>Narrated by <b>Vinaya Varanasi</b>, explore how Tyagaraja transformed from blaming to bliss.</p>
+                    <div class="video-box"><div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/yhjND38WN54?start=280"></iframe></div></div>
+                </div>
+                <div class="article-section">
+                    <h3>Melodies of Rama</h3>
+                    <div class="video-box"><div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/lzkUr1w7Mak?start=280"></iframe></div></div>
+                    <p>Soothing songs brought to life by <b>M.S. Subbulakshmi Amma</b>.</p>
+                </div>
+            </div>
+            <div class="navigation-block"><button onclick="triggerScanner('May')" class="nav-btn">📷 SCAN MAY</button></div>
+            <div class="page-footer">Illustrations: <b>Sweta Sairam</b> | Content: <b>Sai Mallesh</b> | <b>@swetcha_art</b></div>
+        </div>
+
+        <div id="may" class="page-container">
+            <div class="bg-overlay"></div>
+            <header><h1>May</h1><div style="font-style: italic; color: var(--antique-gold);">Saint Sakkubai</div></header>
+            <div class="article-content">
+                <div class="article-section">
+                    <p>Sakkubai's faith in Lord Vitthala remained unbroken through extreme hardship, proving that devotion can melt even stone.</p>
+                </div>
+            </div>
+            <div class="navigation-block"><button onclick="triggerScanner('June')" class="nav-btn">📷 SCAN JUNE</button></div>
+            <div class="page-footer">Illustrations: <b>Sweta Sairam</b> | Content: <b>Sai Mallesh</b> | <b>@swetcha_art</b></div>
+        </div>
+
+        <div id="dec" class="page-container">
+            <div class="bg-overlay"></div>
+            <header><h1>December</h1><div style="font-style: italic; color: var(--antique-gold);">The Saint in YOU</div></header>
+            <div class="article-content" style="text-align: center;">
+                <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=450" class="hero-img">
+                <div class="article-section">
+                    <h3>Every Soul is Potentially Divine</h3>
+                    <p>As Swami Vivekananda said: "Each soul is potentially divine." You are not different from any of the saints you have met this year.</p>
+                    <div class="highlight-quote">"The same light that shone through them is the heartbeat within you."</div>
+                    <p>Take a moment to select any quality from these masters—be it Tulsidas's focus, Andal's sovereign claim, or Tyagaraja's musical bliss—and start your own journey today.</p>
+                </div>
+                <div class="article-section" style="background: white; padding: 30px; border: 1px dashed var(--antique-gold);">
+                    <h3>Your Feedback</h3>
+                    <p>We hope this journey has touched your heart. We would love to hear your feedback on the Bhakthi Heritage Project. Thank you for being a part of this sacred pilgrimage.</p>
+                </div>
+            </div>
+            <div class="page-footer">
+                Bhakthi Heritage Art Calendar Project 2026<br>
+                Illustrations: <b>Sweta Sairam</b> | Content: <b>Sai Mallesh</b><br>
+                <b>@swetcha_art</b> & <b>@Sai_prema_photography</b>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function navigate(id) {
+            document.querySelectorAll('.page-container').forEach(p => p.classList.remove('active'));
+            const target = document.getElementById(id);
+            if(target) {
+                target.classList.add('active');
+                window.scrollTo(0,0);
+            }
+        }
+        function triggerScanner(monthName) {
+            alert(`Ready to unlock ${monthName}?\n\n1. Look at your calendar art.\n2. Open your camera app and scan the QR code.\n3. The journey continues!`);
+        }
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const month = urlParams.get('month');
+            navigate(month || 'intro');
+        };
+    </script>
+</body>
+</html>
